@@ -1,0 +1,49 @@
+administrator/advanced.md:202: [broken] reference/reference.html#hub-db-type: 
+administrator/authentication.rst:146: [broken] /reference/reference.html#hub-extraconfig: 
+administrator/authentication.rst:246: [redirected with Found] https://console.developers.google.com to https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.developers.google.com/&followup=https://console.developers.google.com/
+administrator/authentication.rst:92: [redirected permanently] https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/publicizing-or-hiding-organization-membership to https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/publicizing-or-hiding-organization-membership
+administrator/optimization.md:214: [broken] /reference/reference.html#scheduling-podpriority: 
+administrator/optimization.md:222: [broken] /customizing/user-management.html#culling-user-pods: 
+administrator/optimization.md:332: [broken] user-management.html#culling-user-pods: 
+administrator/upgrading.md:100: [broken] /security.html#use-role-based-access-control-rbac: 
+amazon/step-zero-aws.rst:163: [broken] setup-helm#initialization: 
+community/users-list.md:11: [broken] https://jupyter.demo.globus.org/: HTTPSConnectionPool(host='jupyter.demo.globus.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x6a982ff3ea00>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+google/step-zero-gcp.rst:6: [broken] https://cloud.google.com/free/docs/gcp-free-tier#always-free-usage-limits: Anchor 'always-free-usage-limits' not found
+google/step-zero-gcp.rst:34: [redirected with Found] https://console.cloud.google.com to https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/
+google/step-zero-gcp.rst:23: [redirected with Found] https://console.cloud.google.com/apis/api/container.googleapis.com/overview to https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/apis/api/container.googleapis.com/overview&followup=https://console.cloud.google.com/apis/api/container.googleapis.com/overview
+google/step-zero-gcp.rst:47: [redirected permanently] https://cloud.google.com/sdk/install to https://cloud.google.com/sdk/docs/install
+google/step-zero-gcp.rst:15: [redirected with Found] https://console.cloud.google.com to https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/
+microsoft/step-zero-azure.rst:16: [redirected with Found] https://portal.azure.com to https://portal.azure.com/Error/UE_404?aspxerrorpath=/
+microsoft/step-zero-azure.rst:16: [redirected with Found] https://portal.azure.com to https://portal.azure.com/Error/UE_404?aspxerrorpath=/
+microsoft/step-zero-azure-autoscale.rst:20: [redirected with Found] https://portal.azure.com to https://portal.azure.com/Error/UE_404?aspxerrorpath=/
+microsoft/step-zero-azure-autoscale.rst:20: [redirected with Found] https://portal.azure.com to https://portal.azure.com/Error/UE_404?aspxerrorpath=/
+microsoft/step-zero-azure-autoscale.rst:331: [redirected with Found] https://portal.azure.com/ to https://portal.azure.com/Error/UE_404?aspxerrorpath=/
+ovh/step-zero-ovh.rst:6: [redirected permanently] https://ovh.com/ to https://www.ovh.com/world/
+ovh/step-zero-ovh.rst:4: [redirected permanently] https://ovh.com/ to https://www.ovh.com/world/
+reference.md:523: [redirected permanently] https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container to https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+reference.md:542: [redirected permanently] https://kubernetes.io/docs/concepts/configuration/assign-pod-node/ to https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/
+reference.md:692: [redirected permanently] https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/ to https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/
+reference.md:1008: [redirected with Found] https://zero-to-jupyterhub.readthedocs.io/en/stable/security.html?highlight=security#https to https://zero-to-jupyterhub.readthedocs.io/en/stable/administrator/security.html?highlight=security#https
+reference.md:1152: [broken] optimization.html#the-images-that-will-be-pulled: 
+reference.md:1165: [broken] optimization.html#pulling-images-before-users-arrive: 
+reference.md:1172: [broken] optimization.html#pulling-images-before-users-arrive: 
+reference.md:1029: [redirected with Found] https://zero-to-jupyterhub.readthedocs.io/en/stable/security.html?highlight=security#set-up-manual-https to https://zero-to-jupyterhub.readthedocs.io/en/stable/administrator/security.html?highlight=security#set-up-manual-https
+reference.md:1016: [redirected with Found] https://zero-to-jupyterhub.readthedocs.io/en/stable/security.html?highlight=security#set-up-automatic-https to https://zero-to-jupyterhub.readthedocs.io/en/stable/administrator/security.html?highlight=security#set-up-automatic-https
+reference.md:1061: [redirected with Found] https://zero-to-jupyterhub.readthedocs.io/en/stable/security.html?highlight=security#set-up-automatic-https to https://zero-to-jupyterhub.readthedocs.io/en/stable/administrator/security.html?highlight=security#set-up-automatic-https
+reference/glossary.rst:97: [redirected permanently] https://kubernetes.io/docs/concepts/workloads/pods/pod/ to https://kubernetes.io/docs/concepts/workloads/pods/
+reference/glossary.rst:118: [redirected permanently] https://github.com/jupyter/repo2docker to https://github.com/jupyterhub/repo2docker
+reference/reference.md:598: [broken] /administrator/security.html#https: 
+reference/reference.md:618: [broken] /administrator/security.html#set-up-automatic-https: 
+reference/reference.md:624: [broken] /administrator/security.html#set-up-manual-https: 
+reference/reference.md:678: [broken] /administrator/security.html#set-up-automatic-https: 
+reference/reference.md:1355: [broken] /administrator/optimization.html#pulling-images-before-users-arrive: 
+reference/reference.md:1382: [broken] /administrator/optimization.html#pulling-images-before-users-arrive: 
+reference/reference.md:1394: [broken] /administrator/optimization.html#the-images-that-will-be-pulled: 
+reference/reference.md:1299: [broken] /administrator/advanced.html#ingress: 
+reference/reference.md:754: [redirected with Found] http://jupyterhub.readthedocs.io/en/latest/api/auth.html to https://jupyterhub.readthedocs.io/en/latest/api/auth.html
+reference/tools.rst:33: [broken] create-k8s-cluster: 
+reference/tools.rst:134: [redirected permanently] https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/ to https://kubernetes.io/docs/concepts/workloads/pods/
+repo2docker.rst:19: [redirected permanently] https://github.com/jupyter/repo2docker to https://github.com/jupyterhub/repo2docker
+setup-jupyterhub/setup-helm2.rst:77: [broken] ../administrator/security.html#use-role-based-access-control-rbac: 
+setup-jupyterhub/turn-off.rst:70: [redirected with Found] https://console.cloud.google.com to https://accounts.google.com/ServiceLogin?service=cloudconsole&passive=1209600&osid=1&continue=https://console.cloud.google.com/&followup=https://console.cloud.google.com/
+setup-jupyterhub/turn-off.rst:108: [redirected with Found] https://portal.azure.com to https://portal.azure.com/Error/UE_404?aspxerrorpath=/
