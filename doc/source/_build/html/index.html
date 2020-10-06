@@ -42,7 +42,7 @@
     <link rel="shortcut icon" href="_static/favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Administrator Guide" href="administrator/index.html" />
+    <link rel="next" title="Setup Infrastructure" href="infra/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -63,6 +63,14 @@
     <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
       <ul id="navbar-main-elements" class="navbar-nav mr-auto">
         
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="infra/index.html">Setup Infrastructure</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="installation/index.html">Installation</a>
+        </li>
         
         <li class="nav-item ">
             <a class="nav-link" href="administrator/index.html">Administrator Guide</a>
@@ -108,6 +116,10 @@
   
 
   <ul class="nav bd-sidenav">
+      
+      
+      
+      
       
       
       
@@ -225,6 +237,14 @@ depends upon, see our <a class="reference internal" href="reference/tools.html#t
 <p>This section describes a Kubernetes cluster and outlines how to complete <em>Step Zero: your Kubernetes cluster</em> for
 different cloud providers and infrastructure.</p>
 <div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Setup a Kubernetes cluster</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="infra/index.html">Setup Infrastructure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="infra/setup-kubernetes.html">Setting up Kubernetes Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="infra/setup-helm.html">Setting up Helm</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 <div class="section" id="setup-jupyterhub">
@@ -234,6 +254,16 @@ steps needed for you to create a complete initial JupyterHub deployment.
 This will use the JupyterHub Helm chart which provides sensible defaults for
 an initial deployment.</p>
 <div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Setup JupyterHub</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation/index.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation/quick-install.html">Quick Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/quick-install.html#prepare-configuration-file">Prepare configuration file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/quick-install.html#install-jupyterhub">Install JupyterHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/advanced-install.html">Customization Guide</a></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 <div class="section" id="customization-guide">
@@ -327,7 +357,7 @@ organizations (and the organizations that support them!)</p>
               
               <div class='prev-next-bottom'>
                 
-    <a class='right-next' id="next-link" href="administrator/index.html" title="next page">Administrator Guide</a>
+    <a class='right-next' id="next-link" href="infra/index.html" title="next page">Setup Infrastructure</a>
 
               </div>
               

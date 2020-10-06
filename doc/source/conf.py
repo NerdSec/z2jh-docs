@@ -63,38 +63,38 @@ source_suffix = ['.rst', '.md']
 
 # header
 with open('reference/reference.txt', 'r') as f:
-    header_md = f.readlines()
+   header_md = f.readlines()
 header_md = header_md[1:]
 header_md = [ln.strip('\n') for ln in header_md]
 
 # schema
 with open('../../schema.yaml', 'r') as f:
-    data = yaml.safe_load(f)
+   data = yaml.safe_load(f)
 def parse_schema(d, md=[], depth=0, pre=''):
-    """
-    Generate markdown headers from a passed python dictionary created by
-    parsing a schema.yaml file.
-    """
-    if 'properties' in d:
-        depth += 1
-        # Create markdown headers for each schema level
-        for key, val in d['properties'].items():
-            md.append('#'*(depth + 1) + ' ' + pre + key)
-            md.append('')
-            if 'description' in val:
-                for ln in val['description'].split('\n'):
-                    md.append(ln)
-                md.append('')
+   """
+   Generate markdown headers from a passed python dictionary created by
+   parsing a schema.yaml file.
+   """
+   if 'properties' in d:
+       depth += 1
+       # Create markdown headers for each schema level
+       for key, val in d['properties'].items():
+           md.append('#'*(depth + 1) + ' ' + pre + key)
+           md.append('')
+           if 'description' in val:
+               for ln in val['description'].split('\n'):
+                   md.append(ln)
+               md.append('')
 
-            parse_schema(val, md, depth, pre+'{}.'.format(key))
-        depth -= 1
-    return md
+           parse_schema(val, md, depth, pre+'{}.'.format(key))
+       depth -= 1
+   return md
 schema_md = parse_schema(data)
 
 # reference = header + schema
 reference_md = header_md + schema_md
 with open('reference/reference.md', 'w') as f:
-    f.write('\n'.join(reference_md))
+   f.write('\n'.join(reference_md))
 
 
 # -- Options for linkcheck builder -------------------------------------------

@@ -10,7 +10,8 @@ a Kubernetes cluster on various cloud providers and on other infrastructure.
 Choose one option and proceed.
 
 .. toctree::
-   #:titlesonly:
+   :titlesonly:
+   
    google/step-zero-gcp
    microsoft/step-zero-azure
    microsoft/step-zero-azure-autoscale

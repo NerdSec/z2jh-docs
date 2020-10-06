@@ -131,6 +131,10 @@
     <ul class="nav section-nav flex-column">
     
         <li class="nav-item toc-entry toc-h2">
+            <a href="#" class="nav-link">Quick Install</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
             <a href="#prepare-configuration-file" class="nav-link">Prepare configuration file</a>
         </li>
     
@@ -156,8 +160,9 @@
 <p>Now that we have a <a class="reference internal" href="../setup-infra/setup-kubernetes.html"><span class="doc">Kubernetes cluster</span></a> and <span class="xref std std-doc">Helm</span> setup, we can proceed by using Helm to install JupyterHub
 and related <a class="reference internal" href="../reference/glossary.html#term-Kubernetes-resource"><span class="xref std std-term">Kubernetes resources</span></a> using a
 <a class="reference internal" href="../reference/glossary.html#term-Helm-chart"><span class="xref std std-term">Helm chart</span></a>.</p>
+</div>
 <div class="section" id="prepare-configuration-file">
-<h2>Prepare configuration file<a class="headerlink" href="#prepare-configuration-file" title="Permalink to this headline">¶</a></h2>
+<h1>Prepare configuration file<a class="headerlink" href="#prepare-configuration-file" title="Permalink to this headline">¶</a></h1>
 <p>In this step we will prepare a <a class="reference external" href="https://en.wikipedia.org/wiki/YAML">YAML</a>
 configuration file that we will refer to as <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code>. It will contain the multiple
 <a class="reference internal" href="../reference/glossary.html#term-Helm-values"><span class="xref std std-term">Helm values</span></a> to be provided to a JupyterHub <a class="reference internal" href="../reference/glossary.html#term-Helm-chart"><span class="xref std std-term">Helm chart</span></a> developed
@@ -195,7 +200,7 @@ two spaces.</p>
 </ol>
 </div>
 <div class="section" id="install-jupyterhub">
-<h2>Install JupyterHub<a class="headerlink" href="#install-jupyterhub" title="Permalink to this headline">¶</a></h2>
+<h1>Install JupyterHub<a class="headerlink" href="#install-jupyterhub" title="Permalink to this headline">¶</a></h1>
 <ol class="arabic">
 <li><p>Make Helm aware of the <a class="reference external" href="https://jupyterhub.github.io/helm-chart/">JupyterHub Helm chart repository</a> so you can install the
 JupyterHub chart from it without having to use a long URL name.</p>
@@ -308,7 +313,7 @@ can find the longer version by calling:</p>
 to a browser. JupyterHub is running with a default <em>dummy</em> authenticator so
 entering any username and password combination will let you enter the hub.</p></li>
 </ol>
-<p>Congratulations! Now that you have basic JupyterHub running, you can <a class="reference internal" href="extending-jupyterhub.html#extending-jupyterhub"><span class="std std-ref">extend it</span></a> and <a class="reference internal" href="../administrator/optimization.html#optimization"><span class="std std-ref">optimize it</span></a> in many
+<p>Congratulations! Now that you have basic JupyterHub running, you can <a class="reference internal" href="customizing/extending-jupyterhub.html#extending-jupyterhub"><span class="std std-ref">extend it</span></a> and <a class="reference internal" href="../administrator/optimization.html#optimization"><span class="std std-ref">optimize it</span></a> in many
 ways to meet your needs.</p>
 <p>Some examples of customisations are:</p>
 <ul class="simple">
@@ -317,7 +322,6 @@ ways to meet your needs.</p>
 <li><p>Host it on <a class="reference external" href="https://your-domain.com">https://your-domain.com</a>.</p></li>
 <li><p>…</p></li>
 </ul>
-</div>
 </div>
 
 

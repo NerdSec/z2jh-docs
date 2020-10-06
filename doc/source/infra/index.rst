@@ -1,6 +1,5 @@
-================
 Setup Infrastructure
-================
+=====================
 
 Kubernetes' documentation describes the many `ways to set up a cluster`.
 We attempt to provide quick instructions for the most painless and popular ways of setting up

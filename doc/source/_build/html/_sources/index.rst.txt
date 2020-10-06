@@ -61,9 +61,10 @@ different cloud providers and infrastructure.
 
 .. toctree::
    :titlesonly:
+   :maxdepth: 2
    :caption: Setup a Kubernetes cluster
 
-   create-k8s-cluster
+   infra/index
 
 .. _creating-your-jupyterhub:
 
@@ -77,10 +78,10 @@ This will use the JupyterHub Helm chart which provides sensible defaults for
 an initial deployment.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Setup JupyterHub
 
-   setup-jupyterhub/index
+   installation/index
 
 .. _customization-guide:
 

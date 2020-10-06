@@ -1,7 +1,7 @@
 .. _quick-install:
 
 Quick Install
-=====================
+-------------------------
 
 Now that we have a :doc:`Kubernetes cluster </setup-infra/setup-kubernetes>` and :doc:`Helm
 <setup-helm>` setup, we can proceed by using Helm to install JupyterHub
