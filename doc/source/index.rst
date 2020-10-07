@@ -15,7 +15,7 @@ change. *You can be a part of this change!* If you see anything that is incorrec
 or have any questions, feel free to reach out in the `gitter chat
 <https://gitter.im/jupyterhub/jupyterhub>`_ or create an issue at the `issues
 page`_. If you have tips or deployments that you would like to share, see
-:ref:`community-resources`.
+:ref:`resources-and-references`.
 
 This documentation is for jupyterhub chart version |release|, which deploys JupyterHub |hub_version|.
 
@@ -68,7 +68,6 @@ different cloud providers and infrastructure.
 
 .. _creating-your-jupyterhub:
 
-
 Setup JupyterHub
 ----------------
 
@@ -78,15 +77,11 @@ This will use the JupyterHub Helm chart which provides sensible defaults for
 an initial deployment.
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 2
    :caption: Setup JupyterHub
 
    installation/index
-
-.. _customization-guide:
-
-Customization Guide
--------------------
 
 JupyterHub can be configured and customized to fit a variety of deployment
 requirements. If you would like to expand JupyterHub, customize its setup,
@@ -94,12 +89,6 @@ increase the computational resources available for users, or change
 authentication services, this guide will walk you through the steps.
 See the :ref:`helm-chart-configuration-reference` for a list of frequently
 used configurable helm chart fields.
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Customization Guide
-
-   customizing/index
 
 .. _administrator-guide:
 
@@ -116,10 +105,22 @@ cloud-based deployments and tips for maintaining your deployment.
 
    administrator/index
 
-.. _community-resources:
+.. _resources-and-references:
 
-Resources from the community
-----------------------------
+Resources
+-----------
+
+This section holds all the references and resources that helped make this project what it is today.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Resources
+
+   resources/index
+
+
+Community Resources
+********************
 
 This section gives the community a space to provide information on setting
 up, managing, and maintaining JupyterHub.
@@ -137,30 +138,12 @@ up, managing, and maintaining JupyterHub.
 
 We hope that you will use this section to share deployments with on a variety
 of infrastructure and for different use cases.
-There is also a :doc:`community maintained list <community/users-list>` of users of this
+There is also a :doc:`community maintained list <resources/community>` of users of this
 Guide and the JupyterHub Helm Chart.
 
-Please submit a pull request to add to this section. Thanks.
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Community section
-
-   community/index
-
-.. _reference:
-
-Reference
----------
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Reference
-
-   reference/index
 
 Institutional support
----------------------
+**********************
 
 This guide and the associated helm chart would not be possible without the
 amazing institutional support from the following

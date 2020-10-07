@@ -42,6 +42,8 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Customization Guide" href="advanced-install.html" />
+    <link rel="prev" title="Setup JupyterHub" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -62,6 +64,14 @@
     <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
       <ul id="navbar-main-elements" class="navbar-nav mr-auto">
         
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="../infra/index.html">Setup Infrastructure</a>
+        </li>
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Setup JupyterHub</a>
+        </li>
         
         <li class="nav-item ">
             <a class="nav-link" href="../administrator/index.html">Administrator Guide</a>
@@ -111,6 +121,24 @@
       
       
       
+        
+          
+              <li class="active">
+                  <a href="">Quick Install</a>
+              </li>
+          
+        
+          
+              <li class="">
+                  <a href="advanced-install.html">Customization Guide</a>
+              </li>
+          
+        
+      
+      
+      
+      
+      
       
       
       
@@ -129,10 +157,6 @@
 
 <nav id="bd-toc-nav">
     <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#" class="nav-link">Quick Install</a>
-        </li>
     
         <li class="nav-item toc-entry toc-h2">
             <a href="#prepare-configuration-file" class="nav-link">Prepare configuration file</a>
@@ -157,12 +181,11 @@
                 
   <div class="section" id="quick-install">
 <span id="id1"></span><h1>Quick Install<a class="headerlink" href="#quick-install" title="Permalink to this headline">¶</a></h1>
-<p>Now that we have a <a class="reference internal" href="../setup-infra/setup-kubernetes.html"><span class="doc">Kubernetes cluster</span></a> and <span class="xref std std-doc">Helm</span> setup, we can proceed by using Helm to install JupyterHub
+<p>Now that we have a <span class="xref std std-doc">Kubernetes cluster</span> and <span class="xref std std-doc">Helm</span> setup, we can proceed by using Helm to install JupyterHub
 and related <a class="reference internal" href="../reference/glossary.html#term-Kubernetes-resource"><span class="xref std std-term">Kubernetes resources</span></a> using a
 <a class="reference internal" href="../reference/glossary.html#term-Helm-chart"><span class="xref std std-term">Helm chart</span></a>.</p>
-</div>
 <div class="section" id="prepare-configuration-file">
-<h1>Prepare configuration file<a class="headerlink" href="#prepare-configuration-file" title="Permalink to this headline">¶</a></h1>
+<h2>Prepare configuration file<a class="headerlink" href="#prepare-configuration-file" title="Permalink to this headline">¶</a></h2>
 <p>In this step we will prepare a <a class="reference external" href="https://en.wikipedia.org/wiki/YAML">YAML</a>
 configuration file that we will refer to as <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code>. It will contain the multiple
 <a class="reference internal" href="../reference/glossary.html#term-Helm-values"><span class="xref std std-term">Helm values</span></a> to be provided to a JupyterHub <a class="reference internal" href="../reference/glossary.html#term-Helm-chart"><span class="xref std std-term">Helm chart</span></a> developed
@@ -200,7 +223,7 @@ two spaces.</p>
 </ol>
 </div>
 <div class="section" id="install-jupyterhub">
-<h1>Install JupyterHub<a class="headerlink" href="#install-jupyterhub" title="Permalink to this headline">¶</a></h1>
+<h2>Install JupyterHub<a class="headerlink" href="#install-jupyterhub" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p>Make Helm aware of the <a class="reference external" href="https://jupyterhub.github.io/helm-chart/">JupyterHub Helm chart repository</a> so you can install the
 JupyterHub chart from it without having to use a long URL name.</p>
@@ -323,6 +346,7 @@ ways to meet your needs.</p>
 <li><p>…</p></li>
 </ul>
 </div>
+</div>
 
 
               </div>
@@ -330,6 +354,8 @@ ways to meet your needs.</p>
               
               <div class='prev-next-bottom'>
                 
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Setup JupyterHub</a>
+    <a class='right-next' id="next-link" href="advanced-install.html" title="next page">Customization Guide</a>
 
               </div>
               

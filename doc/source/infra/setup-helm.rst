@@ -1,7 +1,7 @@
 .. _setup-helm:
 
 Setting up Helm
-===============
+================
 
 `Helm <https://helm.sh/>`_, the package manager for Kubernetes, is a useful tool
 for: installing, upgrading and managing applications on a Kubernetes cluster.
@@ -25,7 +25,7 @@ the package.
    `Helm guide <https://helm.sh/docs/topics/v2_v3_migration/>`_.
 
 Installation
-------------
+--------------
 
 While several `methods to install Helm
 <https://helm.sh/docs/intro/install/>`_ exist, the
@@ -41,7 +41,7 @@ simplest way to install Helm is to run Helm's installer script in a terminal:
 
 
 Verify
-------
+--------------
 
 You can verify that it is installed properly by running:
 
@@ -57,7 +57,7 @@ You should see an empty list since no Helm charts have been installed:
 
 
 Next Step
----------
+--------------
 
 Congratulations, Helm is now set up! Let's continue with :ref:`setup-jupyterhub`!
 

@@ -1,5 +1,5 @@
-Installation
---------------
+Setup JupyterHub
+-----------------
 
 JupyterHub can be configured and customized to fit a variety of deployment
 requirements. If you would like to expand JupyterHub, customize its setup,
@@ -10,7 +10,7 @@ used configurable helm chart fields.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Installation Guide
+   :caption: Setup JupyterHub
 
    quick-install
    advanced-install
