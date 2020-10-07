@@ -12,12 +12,12 @@ up, managing, and maintaining JupyterHub.
 
 .. note::
    **Contributing to Z2JH**. If you would like to help improve the Zero to
-   JupyterHub guide, please see the `issues page`_ as well as the `contributor guide
+   JupyterHub guide, please see the `issues page <https://github.com/jupyterhub/zero-to-jupyterhub-k8s/issues>`_ as well as the `contributor guide
    <https://github.com/jupyterhub/zero-to-jupyterhub-k8s/blob/master/CONTRIBUTING.md>`_.
 
 We hope that you will use this section to share deployments with on a variety
 of infrastructure and for different use cases.
-There is also a :doc:`community maintained list <./users-list>` of users of this
+There is also a `community maintained list <#users-list>`_ of users of this
 Guide and the JupyterHub Helm Chart.
 
 Please submit an `issue/pull request <https://github.com/jupyterhub/zero-to-jupyterhub-k8s/issues>`_ to add to this section. Thanks.
@@ -130,10 +130,13 @@ Request to add yourself to this alphabetically sorted list!
 * `MyBinder.org <https://mybinder.org>`_
 * `PAWS <https://www.mediawiki.org/wiki/PAWS>`_ at `Wikimedia Cloud Services <https://www.mediawiki.org/wiki/Wikimedia_Cloud_Services_team>`_
 * A group of universities near Paris (led by a team at CNRS and Polytechnique) deployed `a cross-institutional JupyterHub <https://blog.jupyter.org/how-to-deploy-jupyterhub-with-kubernetes-on-openstack-f8f6120d4b1>`_ for university use. 
-* `Globus <https://www.globus.org>`_ runs an `instance of Zero-to-JupyterHub <https://jupyter.demo.globus.org/)`_ to help users learn about Globus REST APIs.
+* `Globus <https://www.globus.org/>`_ runs an `instance of Zero-to-JupyterHub <https://jupyter.demo.globus.org/)`_ to help users learn about Globus REST APIs.
 
-Additional Resources
-====================
+
+.. _users-list:
+
+Links to community project resources
+------------------------------------
 
 This page contains links and references to other material in the JupyterHub
 ecosystem. It may include other guides, examples of JupyterHub deployments,
@@ -142,9 +145,6 @@ or posts from the community.
 If you have a suggestion for something to add to this page, please
 `open an issue <https://github.com/jupyterhub/zero-to-jupyterhub-k8s/issues>`_.
 
-
-Links to community project resources
-------------------------------------
 
 * **Automatically deploy a JupyterHub on AWS** from the Space Telescope Software Institute
 

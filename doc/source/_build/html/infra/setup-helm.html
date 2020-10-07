@@ -42,7 +42,7 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Installation" href="../installation/index.html" />
+    <link rel="next" title="Setup JupyterHub" href="../jupyterhub/index.html" />
     <link rel="prev" title="Kubernetes on OVHcloud (OVH)" href="ovh/step-zero-ovh.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -65,16 +65,12 @@
       <ul id="navbar-main-elements" class="navbar-nav mr-auto">
         
         
-        <li class="nav-item ">
-            <a class="nav-link" href="setup-kubernetes.html">Setting up Kubernetes Cluster</a>
-        </li>
-        
         <li class="nav-item active">
-            <a class="nav-link" href="">Setting up Helm</a>
+            <a class="nav-link" href="index.html">Setup Infrastructure</a>
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="../installation/index.html">Installation</a>
+            <a class="nav-link" href="../jupyterhub/index.html">Setup JupyterHub</a>
         </li>
         
         <li class="nav-item ">
@@ -82,11 +78,7 @@
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="../community/index.html">Community Resources</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="../reference/index.html">Reference</a>
+            <a class="nav-link" href="../resources/index.html">Resources</a>
         </li>
         
         
@@ -123,11 +115,19 @@
   <ul class="nav bd-sidenav">
       
       
-      
-      
         
-      
-      
+          
+              <li class="">
+                  <a href="setup-kubernetes.html">Setting up Kubernetes Cluster</a>
+              </li>
+          
+        
+          
+              <li class="active">
+                  <a href="">Setting up Helm</a>
+              </li>
+          
+        
       
       
       
@@ -184,7 +184,7 @@ for: installing, upgrading and managing applications on a Kubernetes cluster.
 Helm packages are called <em>charts</em>.
 We will be installing and managing JupyterHub on our Kubernetes cluster using a Helm chart.</p>
 <p>Charts are abstractions describing how to install packages onto a Kubernetes
-cluster. When a chart is deployed, it works as a templating engine to populate
+cluster. When a chart is deployed, it works as a template engine to populate
 multiple <code class="docutils literal notranslate"><span class="pre">yaml</span></code> files for package dependencies with the required variables, and
 then runs <code class="docutils literal notranslate"><span class="pre">kubectl</span> <span class="pre">apply</span></code> to apply the configuration to the resource and install
 the package.</p>
@@ -232,7 +232,7 @@ simplest way to install Helm is to run Helm’s installer script in a terminal:<
               <div class='prev-next-bottom'>
                 
     <a class='left-prev' id="prev-link" href="ovh/step-zero-ovh.html" title="previous page">Kubernetes on OVHcloud (OVH)</a>
-    <a class='right-next' id="next-link" href="../installation/index.html" title="next page">Installation</a>
+    <a class='right-next' id="next-link" href="../jupyterhub/index.html" title="next page">Setup JupyterHub</a>
 
               </div>
               

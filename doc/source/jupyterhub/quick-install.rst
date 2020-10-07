@@ -3,8 +3,8 @@
 Quick Install
 ===============
 
-Now that we have a :doc:`Kubernetes cluster </setup-infra/setup-kubernetes>` and :doc:`Helm
-<setup-helm>` setup, we can proceed by using Helm to install JupyterHub
+Now that we have a :doc:`Kubernetes cluster </infra/setup-kubernetes>` and :doc:`Helm
+</infra/setup-helm>` setup, we can proceed by using Helm to install JupyterHub
 and related :term:`Kubernetes resources <Kubernetes resource>` using a
 :term:`Helm chart`.
 
@@ -199,4 +199,3 @@ Some examples of customisations are:
 * Configure the login to use the account that makes sense to you (Google, GitHub, etc.).
 * Use a suitable pre-built image for the user container or build your own.
 * Host it on https://your-domain.com.
-* ...

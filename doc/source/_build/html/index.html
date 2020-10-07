@@ -69,7 +69,7 @@
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="installation/index.html">Setup JupyterHub</a>
+            <a class="nav-link" href="jupyterhub/index.html">Setup JupyterHub</a>
         </li>
         
         <li class="nav-item ">
@@ -142,7 +142,7 @@
         </li>
     
         <li class="nav-item toc-entry toc-h2">
-            <a href="#setup-a-kubernetes-cluster" class="nav-link">Setup a Kubernetes cluster</a>
+            <a href="#setup-infrastructure" class="nav-link">Setup Infrastructure</a>
         </li>
     
         <li class="nav-item toc-entry toc-h2">
@@ -184,17 +184,20 @@
 <h1>Zero to JupyterHub with Kubernetes<a class="headerlink" href="#zero-to-jupyterhub-with-kubernetes" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="https://github.com/jupyterhub/jupyterhub">JupyterHub</a> allows users to interact with a computing environment through a
 webpage. As most devices have access to a web browser, JupyterHub makes it is
-easy to provide and standardize the computing environment of a group of people
+easy to provide and standardize the computing environment for a group of people
 (e.g., for a class of students or an analytics team).</p>
 <p>This project will help you set up your own JupyterHub on a cloud/on-prem k8s environment and leverage
 its scalable nature to support a large group of users. Thanks to
 <a class="reference internal" href="resources/reference/glossary.html#term-Kubernetes"><span class="xref std std-term">Kubernetes</span></a>, we are not tied to a specific cloud provider.</p>
-<p>Note that this project is under active development so information and tools may
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is under active development so information and tools may
 change. <em>You can be a part of this change!</em> If you see anything that is incorrect
 or have any questions, feel free to reach out in the <a class="reference external" href="https://gitter.im/jupyterhub/jupyterhub">gitter chat</a> or create an issue at the <a class="reference external" href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/issues">issues
 page</a>. If you have tips or deployments that you would like to share, see
 <a class="reference internal" href="#resources-and-references"><span class="std std-ref">Resources</span></a>.</p>
-<p>This documentation is for jupyterhub chart version , which deploys JupyterHub <a href="#id2"><span class="problematic" id="id3">|hub_version|</span></a>.</p>
+</div>
+<p>This documentation is for JupyterHub chart version , which deploys JupyterHub <a href="#id2"><span class="problematic" id="id3">|hub_version|</span></a>.</p>
 <p>This version of the chart requires kubernetes ≥1.11 and helm ≥2.11.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -213,7 +216,7 @@ While doing this, you will gain valuable experience with:</p>
 <li><p><strong>JupyterHub</strong> to give users access to a Jupyter computing environment</p></li>
 <li><p><strong>A terminal interface</strong> on some operating system</p></li>
 </ul>
-<p>It’s also possible you end up getting experienced with:</p>
+<p>It’s also possible you end up getting some experience with:</p>
 <ul class="simple">
 <li><p><strong>Docker</strong> to build customized image for the users</p></li>
 <li><p><strong>Domain registration</strong> to make the hub available at <a class="reference external" href="https://your-domain-name.com">https://your-domain-name.com</a></p></li>
@@ -224,12 +227,13 @@ While doing this, you will gain valuable experience with:</p>
 depends upon, see our <a class="reference internal" href="resources/reference/tools.html#tools"><span class="std std-ref">Utilized Tools</span></a> page.</p>
 </div>
 </div>
-<div class="section" id="setup-a-kubernetes-cluster">
-<span id="getting-to-zero"></span><h2>Setup a Kubernetes cluster<a class="headerlink" href="#setup-a-kubernetes-cluster" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="setup-infrastructure">
+<span id="getting-to-zero"></span><h2>Setup Infrastructure<a class="headerlink" href="#setup-infrastructure" title="Permalink to this headline">¶</a></h2>
 <p>This section describes a Kubernetes cluster and outlines how to complete <em>Step Zero: your Kubernetes cluster</em> for
-different cloud providers and infrastructure.</p>
+different cloud providers and infrastructure.
+Since this project utilizes Helm as the package manager for Kubernetes deployments defined as charts,
+we will also cover how to set it up for your infrastructure.</p>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Setup a Kubernetes cluster</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="infra/index.html">Setup Infrastructure</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="infra/setup-kubernetes.html">Setting up Kubernetes Cluster</a></li>
@@ -241,16 +245,14 @@ different cloud providers and infrastructure.</p>
 </div>
 <div class="section" id="setup-jupyterhub">
 <span id="creating-your-jupyterhub"></span><h2>Setup JupyterHub<a class="headerlink" href="#setup-jupyterhub" title="Permalink to this headline">¶</a></h2>
-<p>This tutorial starts from <em>Step Zero: your Kubernetes cluster</em> and describes the
+<p>This tutorial starts from <em>Step Zero: Your Kubernetes cluster</em> and describes the
 steps needed for you to create a complete initial JupyterHub deployment.
-This will use the JupyterHub Helm chart which provides sensible defaults for
-an initial deployment.</p>
+Please ensure you have a working</p>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Setup JupyterHub</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="installation/index.html">Setup JupyterHub</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="installation/quick-install.html">Quick Install</a></li>
-<li class="toctree-l2"><a class="reference internal" href="installation/advanced-install.html">Advanced Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jupyterhub/index.html">Setup JupyterHub</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="jupyterhub/quick-install.html">Quick Install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyterhub/advanced-install.html">Advanced Installation</a></li>
 </ul>
 </li>
 </ul>
@@ -268,7 +270,6 @@ used configurable helm chart fields.</p>
 production deployment of JupyterHub. It has considerations for managing
 cloud-based deployments and tips for maintaining your deployment.</p>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Administrator Guide</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="administrator/index.html">Administrator Guide</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="administrator/architecture.html">The JupyterHub Architecture</a></li>
@@ -289,15 +290,10 @@ cloud-based deployments and tips for maintaining your deployment.</p>
 <span id="resources-and-references"></span><h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
 <p>This section holds all the references and resources that helped make this project what it is today.</p>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Resources</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="resources/index.html">Resources</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="resources/community.html">Community Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources/community.html#additional-resources">Additional Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources/reference/reference.html">Configuration Reference</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources/reference/reference-docs.html">Related Projects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources/reference/tools.html">Utilized Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="resources/reference/glossary.html">Glossary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resources/reference/index.html">Reference</a></li>
 </ul>
 </li>
 </ul>

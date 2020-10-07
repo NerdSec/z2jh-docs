@@ -9,7 +9,7 @@ Helm packages are called *charts*.
 We will be installing and managing JupyterHub on our Kubernetes cluster using a Helm chart.
 
 Charts are abstractions describing how to install packages onto a Kubernetes
-cluster. When a chart is deployed, it works as a templating engine to populate
+cluster. When a chart is deployed, it works as a template engine to populate
 multiple `yaml` files for package dependencies with the required variables, and
 then runs `kubectl apply` to apply the configuration to the resource and install
 the package.
